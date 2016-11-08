@@ -1,0 +1,136 @@
+header{
+	background-color:#dca525; 
+	position: fixed;
+	z-index:999;
+}
+
+hr{
+	border-color: black;
+}
+
+a:hover{
+	color:#AB330A  ;
+}
+
+.logo{
+	margin-top: 10px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Itim', cursive;
+	font-size: 16px;
+}
+
+ul{
+	margin-top: 40px;
+}
+
+.heroImg{
+	margin-top: 110px;
+}
+
+#quote h1{
+	font-family: 'Qwigley', cursive;
+	font-size: 40px;
+}
+
+#quote{
+	text-align: center;
+}
+
+/*About Us Section*/
+.alpha{
+	background-image: url("../img/background.jpg");
+	background-size: 380px 600px;
+}
+
+.alpha h2{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Coiny', cursive;
+	font-size: 30px;
+}
+
+.alpha a{
+	color: #AB330A ;
+	text-decoration: none;
+}
+
+.alpha p{
+	font-family: 'Fjalla One', cursive;
+	font-size: 15px;
+	position: relative;
+}
+
+.alpha a:hover{
+	color: black;
+}
+
+/*section divided into 3 vertical rows*/
+.omega h3{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Coiny', cursive;
+	color: black;
+	font-size: 25px;
+}
+
+.omega a{
+	color: #AB330A ;
+	text-decoration: none;
+}
+.omega a:hover{
+	color: black;
+}
+
+.omega p{
+	font-family: 'Itim', cursive;
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+
+.section1{
+	background-image: url("../img/background.jpg");
+}
+
+.section2{
+	background-image: url("../img/sectionBackground.jpg");
+}
+
+.section3{
+	background-image: url("../img/background.jpg");
+}
+
+.links-list li{
+	display: inline;
+}
+
+/*footer section*/
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer ul{
+	list-style: none;
+	font-family: 'Ubuntu', cursive;
+}
+
+footer div{
+	background-color: #dca525;
+}
+
+footer .footer_section{
+	margin-left: 0;
+}
+
+footer .footer_section_links i{
+	display: inline;
+}
