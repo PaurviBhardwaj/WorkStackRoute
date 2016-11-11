@@ -1,0 +1,218 @@
+h2{
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+}
+
+.nav{
+	padding-top: 20px;
+}
+
+.navbar a{
+  font-family: 'Coiny', cursive;
+  font-size: 15px;
+}
+
+.navbar-header img{
+	width: 200px;
+	height: 90px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+  margin-top: 115px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  color: black;
+  font-family: 'Coiny', cursive;
+  font-size: 22px;
+  color: white;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Qwigly', cursive;
+  font-size: 16px;
+}
+
+.img-circle{
+  width: 140px;
+  height: 140px;
+}
+
+.panel-heading{
+  font-family: 'Coiny', cursive;
+  font-size: 18px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.marketing2 .col-lg-4 .logoImg {
+  margin-bottom: 20px;
+  width: 600px;
+  height: 300px;
+ }
+.marketing2 .col-lg-4 .freeImg {
+  margin-bottom: 20px;
+  width: 600px;
+  height: 550px;
+ }
+
+.marketing2 .col-lg-8 img {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+ }
+
+.paragraph{
+  text-align: center;
+  font-family: 'Fjalla+One', cursive;
+  font-size: 16px;
+}
+
+.aboutUs{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Itim', cursive;
+  font-size: 16px;
+}
+
+.paragraph img{
+  align-content: center;
+}
+
+/* FOOTER CONTENT
+-------------------------------------------------- */
+.footer {
+  background-color: #101010;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.tag i:hover{
+  color: grey;
+}
+
+.tag i{
+  padding-left: 20px;
+}
+
+.footer ul{
+  margin-top: 20px;
+  list-style: none;
+}
+
+.footer i{
+  color: white;
+}
+
+footer i{
+  display: inline;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  p{
+    font-size: 17px;
+  }
+  .marketing .col-lg-4 p {
+  font-size: 17px;
+}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+p{
+    font-size: 15px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  p{
+    font-size: 25px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  p{
+    font-size: 50px;
+  }
+}

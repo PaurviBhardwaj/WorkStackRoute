@@ -45,35 +45,35 @@ ul{
 }
 
 /*About Us Section*/
-.alpha{
+.aboutUs{
 	background-image: url("../img/background.jpg");
 	background-size: 380px 600px;
 }
 
-.alpha h2{
+.aboutUs h2{
 	margin-top: 10px;
 	text-align: center;
 	font-family: 'Coiny', cursive;
 	font-size: 30px;
 }
 
-.alpha a{
+.aboutUs a{
 	color: #AB330A ;
 	text-decoration: none;
 }
 
-.alpha p{
+.aboutUs p{
 	font-family: 'Fjalla One', cursive;
 	font-size: 15px;
 	position: relative;
 }
 
-.alpha a:hover{
+.aboutUs a:hover{
 	color: black;
 }
 
 /*section divided into 3 vertical rows*/
-.omega h3{
+.rowsSection h3{
 	margin-top: 10px;
 	text-align: center;
 	font-family: 'Coiny', cursive;
@@ -81,15 +81,15 @@ ul{
 	font-size: 25px;
 }
 
-.omega a{
+.rowsSection a{
 	color: #AB330A ;
 	text-decoration: none;
 }
-.omega a:hover{
+.rowsSection a:hover{
 	color: black;
 }
 
-.omega p{
+.rowsSection p{
 	font-family: 'Itim', cursive;
 	font-size: 14px;
 	color: black;
@@ -127,9 +127,6 @@ footer div{
 	background-color: #dca525;
 }
 
-footer .footer_section{
-	margin-left: 0;
-}
 
 footer .footer_section_links i{
 	display: inline;
