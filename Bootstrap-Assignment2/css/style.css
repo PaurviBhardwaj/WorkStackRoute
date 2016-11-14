@@ -100,9 +100,8 @@ h2{
 
 .aboutUs{
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Itim', cursive;
-  font-size: 16px;
 }
 
 .paragraph img{
@@ -144,42 +143,6 @@ footer i{
   display: inline;
 }
 
-.form-signin {
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-  margin-bottom: 10px;
-}
-.form-signin .checkbox {
-  font-weight: normal;
-}
-.form-signin .form-control {
-  position: relative;
-  height: auto;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
-}
-.form-signin .form-control:focus {
-  z-index: 2;
-}
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -188,31 +151,60 @@ footer i{
   }
   .marketing .col-lg-4 p {
   font-size: 17px;
-}
+  }
+  .aboutUs p{
+    font-size: 17px;
+  }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+p{
+    font-size: 22px;
+  }
+  .marketing .col-lg-4 p {
+  font-size: 22px;
+  }
+  .aboutUs p{
+    font-size: 22px;
+  }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 p{
-    font-size: 15px;
+    font-size: 22px;
+  }
+  .marketing .col-lg-4 p {
+  font-size: 22px;
+  }
+  .aboutUs p{
+    font-size: 22px;
   }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   p{
-    font-size: 25px;
+    font-size: 22px;
+  }
+  .marketing .col-lg-4 p {
+  font-size: 22px;
+  }
+  .aboutUs p{
+    font-size: 22px;
   }
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
   p{
-    font-size: 50px;
+    font-size: 22px;
+  }
+  .marketing .col-lg-4 p {
+  font-size: 22px;
+  }
+  .aboutUs p{
+    font-size: 22px;
   }
 }
