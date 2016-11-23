@@ -9,7 +9,7 @@ var initial,terminate;
 var rowToCheck=["All ages","Total"];
 
 var readFinal = readline.createInterface({
-input: fs.createReadStream('csv/final.csv')
+input: fs.createReadStream('../csv/final.csv')
 });
 //Reading the file line by line
 readFinal.on('line',function(line){
@@ -29,7 +29,7 @@ readFinal.on("close",function()
          x+=3;
     }
     //Output file path
-    var outPath = path.join(__dirname, 'json/Education.json');
+    var outPath = path.join(__dirname, '../json/Education.json');
     // Convert object to string, write json to file
     fs.writeFileSync(outPath, JSON.stringify(finalJson), 'utf8', 
         function(err){console.log(err);});

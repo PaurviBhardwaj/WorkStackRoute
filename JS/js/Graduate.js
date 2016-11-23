@@ -8,7 +8,7 @@ var json = [];
 var rowToCheck=["All ages","Total"];
 
 var readGeneral = readline.createInterface({
-input: fs.createReadStream('csv/General.csv')
+input: fs.createReadStream('../csv/General.csv')
 });
     //Reading File General
     readGeneral.on('line',function(line){
@@ -18,7 +18,7 @@ input: fs.createReadStream('csv/General.csv')
         readGeneral.on("close",function()
         {
           var readSC = readline.createInterface({
-        input: fs.createReadStream('csv/SC.csv')
+        input: fs.createReadStream('../csv/SC.csv')
         });
           //Reading File SC
           readSC.on('line',function(line){
@@ -29,7 +29,7 @@ input: fs.createReadStream('csv/General.csv')
              //Closing SC CSV file 
             readSC.on("close",function(){
             var readST = readline.createInterface({
-            input: fs.createReadStream('csv/ST.csv')
+            input: fs.createReadStream('../csv/ST.csv')
             });
               //Reading the file ST
               readST.on('line',function(line){
@@ -49,7 +49,7 @@ input: fs.createReadStream('csv/General.csv')
                     finalJson.push(temp);
                 }
 //Output file path
-var outPath = path.join(__dirname, 'json/Graduate.json');
+var outPath = path.join(__dirname, '../json/Graduate.json');
 // Convert object to string, write json to file
 fs.writeFileSync(outPath, JSON.stringify(finalJson), 'utf8', 
     function(err){console.log(err);});

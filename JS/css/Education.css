@@ -1,0 +1,41 @@
+body{
+       
+  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+      }   
+    .arc text {
+      font: 10px sans-serif;
+      text-anchor: middle;
+    }
+
+    .arc path {
+      stroke: #fff;
+    }
+
+    .legend {                                                  
+            font-size: 12px;                                          
+          }  
+    header
+{
+   overflow:hidden;
+   width:100%;
+  position:fixed;
+  top:0;
+  right: 0;
+  background:black;
+  height:85px;
+  font-size: 13px;
+           
+}nav li
+    {
+  display:inline;
+  font-size:15px;
+  float:right;
+  font-family: Courier, "Lucida Console", monospace;
+    }
+    nav a
+    {
+      text-decoration:none;
+      padding-right:20px;
+      color: white;
+    }

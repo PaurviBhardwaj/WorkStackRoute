@@ -8,7 +8,7 @@ var jsonArray = [];
 var header=[];
 
 var read = readline.createInterface({
-  input: fs.createReadStream('csv/final.csv')
+  input: fs.createReadStream('../csv/final.csv')
 });
 
 //Reading the file line by line
@@ -29,7 +29,7 @@ read.on("close",function()
   }
 
 //Output file path
-var outPath = path.join(__dirname, 'json/Age.json');
+var outPath = path.join(__dirname, '../json/Age.json');
 // Convert object to string, write jsonArray to file
 fs.writeFileSync(outPath, JSON.stringify(finalJson), 'utf8', 
   function(err){console.log(err);});
