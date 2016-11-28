@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>Movie Search</title>
+
+		<!-- <meta name="description" content=""> -->
+		<meta charset="utf-8">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Jquery link -->
+		<script src="https://code.jquery.com/jquery-1.8.1.min.js" integrity="sha256-/BhPlt0YeU4gTEEHWgCSO+fo5Wh0QjHXTy/fiSH3jSk=" crossorigin="anonymous"></script>
+		<!-- Custom JS -->
+		<script src="js/main.js"></script>
+
+		
+	</head>
+	<body>
+		<div class="container"><!--container-->
+			
+			<div class="row"><!--first row-->
+				<div class="col-xs-12 col-xs-offset-4">
+					<label for="movieTitle"><h1>Movie Search</h1></label>
+				</div>
+			</div><!--first row ends here-->
+			
+			<div class="row"><!--second row-->
+				<div class="col-xs-3 col-xs-offset-3">
+					<input type="text" id="movieTitle" class="form-control" name="search" id="search" placeholder="Enter Movie Name">
+				</div>
+				<div class="col-xs-2">
+					<button id="searchMovie" class="btn btn-primary btn-block"><i class="fa fa-search" aria-hidden="true"></i>   Search</button>
+				</div>
+			</div><!--second row ends here-->
+			
+			<br>
+			<div class="row main">
+				<div class="col-xs-12 resultColumn">
+			    	<h2 id=resultTag>SEARCH RESULTS</h2>
+			    	<table class="table table-responsive" id="resultsTable">
+						<thead>
+							<tr>
+								<th>Poster</th>
+								<th>Title</th>
+								<th>Year</th>
+								<th>Type</th>
+							</tr>
+						</thead>
+						<tbody id="tableBody">
+							
+						</tbody>
+					</table>
+				</div><!--end table div -->
+			</div><!-- end row div-->
+
+
+		</div><!--container ends here-->
+
+				<div class="container" id="page">
+				  <ul class="pagination" id="pageList"></ul>
+				</div>
+
+	</body>
+</html>

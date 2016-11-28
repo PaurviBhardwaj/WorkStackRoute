@@ -1,0 +1,38 @@
+h2{
+  text-align: center;
+  color: white;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-image: url("../img/background.jpg"); 
+}
+
+.main th{
+  text-align: center;
+  color: white;
+}
+
+.main td{
+  text-align: center;
+  color: white;
+}
+
+.main img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+
+.main{
+  background-color: black;
+}
+
+#pageList{
+  float: right;
+}
